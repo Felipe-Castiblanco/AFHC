@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:  
+  web:
+    build:
+      context: ./Front_end
+      dockerfile: dockerfile
+    ports:  
+    - '9000:80'
